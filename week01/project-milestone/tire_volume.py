@@ -30,7 +30,7 @@ tireVolume = (firstCalculation * secondCalculation) / 10000000000
 
 # Display the results in a text file called "Volumes.txt"
 with open("../text-files/volumes.txt", "a") as file:
-  file.write(f"Current Year, Month and Day: {currentYearAndDate}\n")
+  file.write(f"\nCurrent Year, Month and Day: {currentYearAndDate}\n")
   file.write(f"Width of the Tire: {tireWidth}mm\n")
   file.write(f"Aspect Ratio of Tire: {tireAspectRatio}\n")
   file.write(f"Diameter of the Wheel: {tireDiameter} inches\n")
