@@ -1,0 +1,41 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+    System Management System
+
+2. What real-world problem will your program address or help to solve?
+    This program will help teachers manage student academic records more efficiently. In many schools, tracking student scores, calculating totals, and organizing results can be stressful and time-consuming when done manually. This program will allow users to store student information, calculate results, and display organized records, reducing errors and saving time.
+
+3. What will you learn from developing this program?
+    I will learn how to design and organize a larger Python program using multiple functions. I will also improve my understanding of working with files, handling data using dictionaries or lists, and structuring code in a way that is easy to test. Additionally, I will learn how to write test functions using pytest to ensure my program works correctly.
+
+4. What Python modules will your program use?
+    csv - To read and write student modules
+    datetime - To display dates or timestamps
+    pytest = To test program Functions
+
+
+5. List the names of functions you will need?
+    load_students_data() – reads student data from a file
+    save_students_data() – saves student data to a file
+    calculate_total_score() – calculates total score for a student
+    calculate_average_score() – calculates average score
+    assign_grade() – determines grade based on score
+    get_student_record() – retrieves a student’s record
+    add_student() – adds a new student
+    display_student_report() – displays formatted student results
+    main() – controls the program flow
+
+6. List the names of the test functions you will write.
+    test_calculate_total_score()
+    test_calculate_average_score()
+    test_assign_grade()
